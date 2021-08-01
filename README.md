@@ -23,8 +23,8 @@ Platform : Robot Framework & Appium ---
 
 ## Web Test Ortamı
 
-Cihaz: M1 Macbook Air
-İşletim Sistemi : macOS Big Sur 11.2.3
+Cihaz: M1 Macbook Air ---
+İşletim Sistemi : macOS Big Sur 11.2.3 ---
 Geliştirme Ortamı : M1 Macbook Air ---
 Platform : Robot Framework & Selenium ---
 Tarayıcı : Google Chrome Version 92.0.4515.107 (Official Build) (arm64)
