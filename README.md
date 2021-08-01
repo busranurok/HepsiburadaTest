@@ -5,6 +5,7 @@ Bu repo içerisinde hepsiburada nın mobil uygulaması için Robot Framework-App
 Test caseleri ve açıklamaları şu şekildedir:
 
 tc1 -> Sepete ürün ekleme testi
+////////////////////////////////
 tc2 -> Giriş yapma işlemi testi
 
 
