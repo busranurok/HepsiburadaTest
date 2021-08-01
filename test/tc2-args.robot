@@ -1,22 +1,17 @@
 *** Settings ***
 
 *** Variables ***
-${CATEGORIES-BUTTON}   id=navigation_categories
-${ADD-TO-CART-BUTTON}    id=addToCart
-${BACK-BUTTON}    id=btn_ic_back
-${LAYOUT}    id=constraintLayoutMain
-${categoryItem_locator}    id=category
+${AccountLocator}    id=account_icon
+${EmailLocator}    xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/androidx.cardview.widget.CardView/android.widget.ScrollView/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[1]/android.view.View[3]/android.view.View[1]/android.widget.EditText
+${PasswordLocator}    xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/androidx.cardview.widget.CardView/android.widget.ScrollView/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[1]/android.view.View[3]/android.view.View[2]/android.widget.EditText
+${LoginLocator}    xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/androidx.cardview.widget.CardView/android.widget.ScrollView/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[1]/android.view.View[3]/android.widget.Button
 
-${CATEGORIES-TEXT}    Kategoriler
-${PRODUCT-DETAIL-TEXT}    Ürün Detay
-${BUY-TEXT}    Satın Al
-${TEXT}    Sepetinizde
-${MY-BASKET-TEXT}    Sepetim
-${MY-SHOPPING-LIST-TEXT}    Alışveriş Listem
-
-@{BOOK-NAMES}
-${CHECK-LIST-MESSAGE}    Mesaj
-
+${ProductAndCategoryText}    Ürün, kategori
+${LoginText}    Giriş yap
+${SignUpText}    Üye ol
+${Unexpected}    Beklenmeyen
+${WelcomeText}    Hoşgeldiniz
+${Ok}    TAMAM
 
 *** Keywords ***
 

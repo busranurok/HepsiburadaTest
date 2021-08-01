@@ -1,8 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <projectConfiguration>
     <configVersion>2</configVersion>
+    <robotExecEnvironment path="/Library/Frameworks/Python.framework/Versions/3.9/bin" interpreter="Python3"/>
     <relativeTo>WORKSPACE</relativeTo>
     <referencedLibrary type="PYTHON" name="AppiumLibrary" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords._android_utils" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords._android_utils._AndroidUtilsKeywords" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords._applicationmanagement" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords._applicationmanagement._ApplicationManagementKeywords" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords._element" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords._element._ElementKeywords" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords._keyevent" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords._keyevent._KeyeventKeywords" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords._logging" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords._logging._LoggingKeywords" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords._runonfailure" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords._runonfailure._RunOnFailureKeywords" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords._screenrecord" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords._screenrecord._ScreenrecordKeywords" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords._screenshot" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords._screenshot._ScreenshotKeywords" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords._touch" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords._touch._TouchKeywords" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords._waiting" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords._waiting._WaitingKeywords" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords.keywordgroup" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords.keywordgroup.KeywordGroup" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.keywords.keywordgroup.KeywordGroupMetaClass" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.locators" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.locators.elementfinder" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.locators.elementfinder.ElementFinder" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.utils" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.utils.applicationcache" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.utils.applicationcache.ApplicationCache" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AppiumLibrary.version" path="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/AppiumLibrary/__init__.py" dynamic="false"/>
     <pythonpath/>
     <classpath/>
     <excludedForValidation/>
